@@ -152,6 +152,7 @@
                     }
                 }
             };
+
             $scope.submit =  function($event) {
                 if ($("#register-form").valid()==true) {//校验通过则返回true,不通过则false：
                     $('#register-form').ajaxSubmit({
